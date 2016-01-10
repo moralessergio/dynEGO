@@ -1,3 +1,13 @@
+/* Tracking global optima in 
+* dynamic environments with efficient 
+* global optimization --- 2010-2014 
+*/
+
+/* strategy.cpp
+ * Copyright (C) 2014 Sergio Morales.
+ * This is free software; you can redistribute it and/or modify it under the
+ * terms of the GNU General Public License.
+ */
 #include "main.h"
 
 bool avoidBubbleCloseSample(gsl_matrix *X, double *bestGenotype, gsl_rng *r);

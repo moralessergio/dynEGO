@@ -1,4 +1,14 @@
-#include "main.h"
+/* Tracking global optima in 
+* dynamic environments with efficient 
+* global optimization --- 2010-2014 
+*/
+
+/* strategy.cpp
+ * Copyright (C) 2014 Sergio Morales.
+ * This is free software; you can redistribute it and/or modify it under the
+ * terms of the GNU General Public License.
+ */
+ #include "main.h"
 
 double gsl_linalg_SV_invert(gsl_matrix *U, gsl_matrix *V, gsl_vector *S, gsl_matrix *pseudoInvU){	//http://en.wikipedia.org/wiki/Singular_value_decomposition
 	int n = S->size;

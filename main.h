@@ -1,3 +1,14 @@
+/* Tracking global optima in 
+* dynamic environments with efficient 
+* global optimization --- 2010-2014 
+*/
+
+/* main.h
+ * Copyright (C) 2014 Sergio Morales.
+ * This is free software; you can redistribute it and/or modify it under the
+ * terms of the GNU General Public License.
+ *
+ */
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
